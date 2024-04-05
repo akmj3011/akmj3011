@@ -1,4 +1,4 @@
-<
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div id="calendar"></div>
+<div id="calendar-container"></div>
 <div id="memo-container" style="display: none;">
     <textarea id="memo-text"></textarea>
     <button onclick="saveMemo()">저장</button>
