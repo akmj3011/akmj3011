@@ -1,5 +1,4 @@
-
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -9,6 +8,12 @@
 </head>
 <body>
 <div id="calendar"></div>
+<div id="memo-container" style="display: none;">
+    <textarea id="memo-text"></textarea>
+    <button onclick="saveMemo()">저장</button>
+    <button onclick="cancelMemo()">취소</button>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
+
